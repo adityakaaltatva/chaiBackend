@@ -4,7 +4,6 @@ dotenv.config();
 import express from 'express';
 const app = express();
 
-// Use a default port if process.env.PORT is not defined
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
